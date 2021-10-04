@@ -17,4 +17,4 @@ spec:
      spec:
         containers:
           - name: Hello
-            image: shubhampatil5128/my-app-1.0
+            image: shubhampatil5128/my-app-1.0:latest
