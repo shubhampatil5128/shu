@@ -17,5 +17,5 @@ spec:
          type: prod
      spec:
         containers:
-          - name: Hello
+          - name: hello
             image: shubhampatil5128/my-app-1.0
