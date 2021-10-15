@@ -19,3 +19,4 @@ spec:
         containers:
           - name: hello
             image: shubhampatil5128/my-app-1.0
+            command: ["/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
