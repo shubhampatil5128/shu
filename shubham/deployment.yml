@@ -1,1 +1,21 @@
 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+     name: simpledep
+     labels:
+        type: prod
+spec:
+  replicas: 3
+  selector:
+      matchLabels:
+         type: prod
+  template:
+     metadata:
+       name: simple
+       labels:
+         type: Prod
+     spec:
+        containers:
+          - name: Hello
+            image: shubhampatil5128/my-app-1.0:latest
